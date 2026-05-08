@@ -126,7 +126,7 @@ if(isset($map[$page])) {
                     </a>
                 <?php } ?>
 
-                <?php if($_SESSION['role']=='admin' || $_SESSION['role']=='technician' || $_SESSION['role']=='owner' || $_SESSION['role']=='chief_technician'){ ?>
+                <?php if($_SESSION['role']=='admin' || $_SESSION['role']=='technician' || $_SESSION['role']=='manager' || $_SESSION['role']=='owner' || $_SESSION['role']=='chief_technician'){ ?>
                     <a href="index.php?page=status" class="menu <?= $page=='status'?'active':'' ?>">
                         <i class="fa-solid fa-chart-simple"></i> สถานะรถ
                     </a>
