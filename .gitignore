@@ -1,0 +1,31 @@
+# ============================================================
+#  .gitignore สำหรับ Car Repair System (PHP / XAMPP)
+# ============================================================
+
+# --- ไฟล์ Credentials (ห้าม push เด็ดขาด!) ---
+db.php
+.env
+send_email.php
+
+
+# --- Dependencies (ให้ใช้ composer install แทน) ---
+vendor/
+
+# --- ไฟล์ทดสอบ ---
+test_email.php
+test_*.php
+
+# --- ไฟล์ระบบ OS ---
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# --- IDE / Editor ---
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# --- Log files ---
+*.log
+error_log
